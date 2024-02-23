@@ -1,0 +1,19 @@
+@import url(variables.css);
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.container {
+    background-color: ;
+}
+.fila1 {
+    display: flex;
+    border: 2px solid black;
+}
+.inicio2 {
+    border: 2px solid black;
+    display: flex;
+    position: absolute;
+    left: 500px;
+}
