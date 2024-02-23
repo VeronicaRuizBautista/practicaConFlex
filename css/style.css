@@ -1,35 +1,43 @@
 @import url(variables.css);
 * {
-    margin: 10px;
+    font-family: sans-serif;
+    font-size:medium;
+    margin: 8px;
 }
 .titulo {
     display: flex;
     justify-content: center;
     font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-titulo);
 }
 .container {
     position:absolute;
-    right: 20%;
+    right: -10%;
     width: 60%;
+    height: 40%;
     padding: 10px;
 }
 .fila1 {
-    padding: 3px;
+    width: 50%;
     background-color: var(--color-container);
     display: flex;
     justify-content: space-between;
 }
 .fila2 {
+    width: 50%;
     background-color: var(--color-container);
     display: flex;
     justify-content: space-between;
 }
 .fila3 {
+    width: 50%;
     background-color: var(--color-container);
     display: flex;
     justify-content: space-between;
 }
 .fila4 {
+    width: 50%;
     background-color: var(--color-container);
     display: flex;
     justify-content: space-between;
