@@ -1,5 +1,6 @@
 :root {
-    --color-pagina: pink;
-    --color-div:gray;
+    --color-pagina: rgb(252, 226, 231);
+    --color-div:rgba(224, 216, 216, 0.849);
     --color-titulo: rgb(169, 110, 119);
+    --color-negro: black;
 }
