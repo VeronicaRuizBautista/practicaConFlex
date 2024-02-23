@@ -1,19 +1,40 @@
 @import url(variables.css);
+* {
+    margin: 10px;
+}
 .titulo {
     display: flex;
     justify-content: center;
     font-size: xx-large;
 }
 .container {
-    background-color: ;
+    position:absolute;
+    right: 20%;
+    width: 60%;
+    padding: 10px;
 }
 .fila1 {
+    padding: 3px;
+    background-color: var(--color-container);
     display: flex;
-    border: 2px solid black;
+    justify-content: space-between;
 }
-.inicio2 {
-    border: 2px solid black;
+.fila2 {
+    background-color: var(--color-container);
     display: flex;
-    position: absolute;
-    left: 500px;
+    justify-content: space-between;
+}
+.fila3 {
+    background-color: var(--color-container);
+    display: flex;
+    justify-content: space-between;
+}
+.fila4 {
+    background-color: var(--color-container);
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    display: flex;
+    justify-content: end;
 }
