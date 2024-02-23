@@ -1,6 +1,7 @@
 :root {
-    --color-titulo: rgb(55, 123, 226);
+    --color-titulo: rgb(226, 109, 129);
     --color-salmon: salmon;
-    --color-gris: rgb(85, 75, 75);
-    --gis-claro: rgb(151, 146, 146);
+    --color-gris: rgb(131, 122, 122);
+    --gis-claro: rgb(146, 142, 142);
+    --color-blanco:white;
 }
