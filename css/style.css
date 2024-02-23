@@ -1,22 +1,24 @@
 @import url(variables.css);
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
 .titulo {
     display: flex;
     justify-content: center;
-    font-size: x-large;
+    font-size: xx-large;
     color: var(--color-titulo);
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     box-sizing: border-box;
-    margin-top: 52px;
+    margin-top: -2px;
     padding: 25px;
+    flex-direction: row;
+    align-items: center;
 }
 .container  img {
 
@@ -36,19 +38,18 @@
 }
 .m {
     color: var(--color-gris);
-    
+    padding: 20px;   
 }
 .mm {
     display: flex;
 }
-.id {
-    background-color: var(--color-salmon);
-    border: 1px solid var(--color-salmon);
-
-    flex-direction:column-reverse;
+.btn {
     width: 40px;
     height: 40px;
-
+    text-align: center;
+    background-color: var(--gis-claro);
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 .logo {
