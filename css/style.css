@@ -1,0 +1,97 @@
+@import url(variables.css);
+* {
+    margin: 10px;
+}
+.encabezado1 {
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado {
+    display: flex;
+    border: 2px solid black;
+}
+.logo {
+    border:2px solid black;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.titulo {
+    border: 2px solid black;
+    position: absolute;
+    right: 88%;
+}
+.menu {
+    border: 2px solid black;
+}
+main {
+    display: flex;
+    align-items: stretch;
+    height: 700px;
+}
+.logoencab {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+}
+.container {
+    border: 2px solid black;
+    flex:1;
+}
+.item1 {
+    border: 2px solid black;
+}
+.ite {
+    border: 2px solid black;
+}
+.items {
+    border: 2px solid black;
+    display: flex;
+}
+.it {
+    width: 25%;
+
+}
+.caja1 {
+    display: flex;
+    border: 2px solid black;
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.caja2 {
+    border: 2px solid black;
+    margin: 40px;
+    align-items: stretch;
+    height: 300px;
+    
+}
+.caja3 {
+    margin: 40px;
+    display: flex;
+    border: 2px solid black;
+    align-items: stretch;
+    height: 250px;
+    flex-direction: column
+}
+.caj {
+    border: 2px solid black;
+    display: flex;
+    width: 150px;
+    height: 70px;
+}
+.titulocaja3 {
+    border: 2px solid black;
+}
+.parrafocaja3 {
+    display: flex;
+    border: 2px solid black;
+    align-items: stretch;
+    height: 100px;
+}
+footer {
+    display: flex;
+    border: 2px solid black;
+}
