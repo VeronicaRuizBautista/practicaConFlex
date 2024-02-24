@@ -3,7 +3,7 @@
     margin: 10px;
 }
 .encabezado1 {
-    width: 70%;
+    margin: 25px;
     border: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,13 @@ main {
 }
 .container {
     border: 2px solid black;
-    flex:1;
+    flex:2;
+}
+.cont1 {
+    flex: 1;
+}
+li {
+    list-style-type: none;
 }
 .item1 {
     border: 2px solid black;
@@ -54,12 +60,24 @@ main {
     width: 25%;
 
 }
-.caja1 {
+.cajaprincipal {
     display: flex;
     border: 2px solid black;
     align-items: stretch;
-    height: 200px;
+    height: 270px;
     justify-content: space-evenly;
+}
+.caja0 {
+    display: flex;
+    align-items: stretch;
+    width: 50%;
+    flex-direction: column;
+}
+.caja1 {
+    display: flex;
+    align-items: stretch;
+    width: 50%;
+    flex-direction: column;
 }
 .caja2 {
     border: 2px solid black;
@@ -73,14 +91,15 @@ main {
     display: flex;
     border: 2px solid black;
     align-items: stretch;
-    height: 250px;
+    height: 200px;
     flex-direction: column
 }
 .caj {
     border: 2px solid black;
     display: flex;
-    width: 150px;
-    height: 70px;
+    width: 300px;
+    height: 100px;
+    flex-direction: column;
 }
 .titulocaja3 {
     border: 2px solid black;
@@ -91,6 +110,44 @@ main {
     align-items: stretch;
     height: 100px;
 }
+.relleno2 {
+    background-color: var(--color-rojo);
+    margin: 0;
+    justify-content: start;
+    border: 2px solid var(--color-rojo);
+    display: flex;
+    width: 100px;
+    height: 11px;
+}
+.relleno3 {
+    background-color: var(--color-rojo);
+    margin: 0;
+    justify-content: start;
+    border: 2px solid var(--color-rojo);
+    display: flex;
+    width: 50px;
+    height: 11px;
+}
+.relleno4 {
+    background-color: var(--color-rojo);
+    margin: 0;
+    justify-content: start;
+    border: 2px solid var(--color-rojo);
+    display: flex;
+    width: 200px;
+    height: 11px;
+}
+.conten {
+    margin: 2px;
+    display: flex;
+    height: 15px;
+    flex-direction: column;
+}
+.barra {
+    border: 2px solid black;
+    width: 80%;
+}
+
 footer {
     display: flex;
     border: 2px solid black;
