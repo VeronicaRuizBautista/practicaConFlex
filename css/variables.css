@@ -1,5 +1,8 @@
 :root {
+    --blanco: white;
     --cabecera: salmon;
     --fondo: #93d9e9;
     --fuente: Arial;
+    --boton:rgb(222, 221, 221);
+    --sombra: rgb(90, 87, 87);
 }
