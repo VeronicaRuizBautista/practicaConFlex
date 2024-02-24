@@ -1,0 +1,8 @@
+@import url(variables.css);
+.body {
+    display: flex;
+    margin: auto;
+    inset: 0;
+    border: 1px solid black;
+    width: 1000px;
+}
