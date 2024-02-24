@@ -1,0 +1,20 @@
+@import url(variables.css);
+* {
+    background-color: var(--fondo);
+    font-family: var(--fuente);
+}
+.container {
+    display: flex;
+    position: absolute;
+    border: 2px solid black;
+    width: 600px;
+    height: 480px;
+    inset: 0;
+    margin: auto;
+}
+.caja {
+    border: 2px solid black;
+    height: 480px;
+    width: 200px;
+    border-radius: 2%;
+}
