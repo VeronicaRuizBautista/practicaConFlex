@@ -1,0 +1,51 @@
+@import url(variables.css);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--fuente-letra);
+}
+header {
+    background-color: var(--fondo-header);
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    padding: 1%;
+    width: 210vh;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.container {
+    background-color: var(--color-fondo);
+    align-items: stretch;
+    height: 80vh;
+    display: flex;
+    width: 100vw;
+}
+nav {
+    margin: 10px;
+    display: flex;
+    flex: 1;
+}
+article {
+    background-color: var(--color-articulo);
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+h4 {
+    font-size: x-large;
+}
+p {
+    margin: 0;
+}
+aside {
+    margin: 10px;
+    display: flex;
+    flex: 1;
+}
+footer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
