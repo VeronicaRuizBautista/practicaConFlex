@@ -1,3 +1,13 @@
+@import url(variables.css);
 * {
-    margin: 20px;
+    margin: 9px;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 380px;
+    border-radius: 2%;
+    box-shadow: 0 0 13px var(--color-sombra);    
 }
