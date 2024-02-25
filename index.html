@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica de FLexbox</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -14,11 +15,24 @@
                 <h4>Titulo</h4>
             </div>
             <nav class="menu">
-                <ul>
-                    <li>Item1</li>
-                    <li>Item2</li>
-                    <li>Item3</li>
-                </ul>
+                <div class="drop">
+                    <button onclick="botonMenu()" class="dropbtn">
+                        =)
+                    </button>
+                    <div id="myopcion" class="opciones">
+                        <ul>
+                            <li>
+                                <a href="#">Item1</a>
+                            </li>
+                            <li>
+                                <a href="#">Item2</a>
+                            </li> 
+                            <li>
+                                <a href="#">Item3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>  
     </header>
@@ -32,21 +46,34 @@
                 <p>Parrafo</p>
             </article>
         <nav>
-            <div>
-                <ul class="item1">
-                    <li class="ite">
-                        <a href="#">Item1</a>
-                    </li>
-                    <li class="ite">
-                        <a href="#">Item2</a>
-                    </li> 
-                    <li class="ite">
-                        <a href="#">Item3</a>
+            <div class="acordion">
+                <ul class="temas">
+                    <li>Item1
+                        <ul class="ite">
+                            <li>subItem1</li>
+                            <li>subItem2</li>
+                            <li>subItem3</li>
+                        </ul>
                     </li>
                 </ul>
-            </div>
-            <div class="caja2">
-                <p>Parrafo</p>
+                <ul class="temas" >
+                    <li>Item2
+                        <ul class="ite">
+                            <li>subItem1</li>
+                            <li>subItem2</li>
+                            <li>subItem3</li>
+                        </ul> 
+                    </li>
+                </ul>
+                <ul class="temas">
+                    <li>Item3
+                        <ul class="ite">
+                            <li>subItem1</li>
+                            <li>subItem2</li>
+                            <li>subItem3</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
         </section>

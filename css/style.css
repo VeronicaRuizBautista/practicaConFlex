@@ -6,6 +6,7 @@
     margin: 25px;
     border: 2px solid black;
     display: flex;
+    height: 80px;
     justify-content: space-between;
 }
 .encabezado {
@@ -13,18 +14,56 @@
     border: 2px solid black;
 }
 .logo {
+    display: flex;
     border:2px solid black;
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .titulo {
     border: 2px solid black;
-    position: absolute;
-    right: 88%;
+    display: flex;
+    width: 700px;
 }
-.menu {
-    border: 2px solid black;
+.dropbtn {
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    font-size: x-large;
+}
+.drop {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    display: inline-block;
+    align-items: star;
+}
+.opciones {
+    border-radius: 5%;
+    border-style:groove;
+    padding: 0;
+    margin: 0;
+    background: rgb(224, 208, 208);
+    display: none;
+    height: 100px;
+    width: 90px;
+    box-sizing: border-box;
+}
+.opciones a{
+    display: flex;
+    line-height: 15px;
+    justify-content: end;
+    padding: 1px;
+    color: black;
+}
+.opciones a:hover {
+    background: rgb(104, 102, 102);
+}
+.opciones.show {
+    display: block;
 }
 main {
     display: flex;
@@ -46,11 +85,23 @@ main {
 li {
     list-style-type: none;
 }
-.item1 {
+.acordion {
     border: 2px solid black;
 }
+.temas {
+    border: 1px solid black;
+    cursor: pointer;
+}
 .ite {
-    border: 2px solid black;
+    padding: 8px;
+    display: none;
+}
+.ite li {
+    border: 1px solid black;
+    margin: 0;
+}
+.ite.active {
+    display: block;
 }
 .items {
     border: 2px solid black;
@@ -78,13 +129,6 @@ li {
     align-items: stretch;
     width: 50%;
     flex-direction: column;
-}
-.caja2 {
-    border: 2px solid black;
-    margin: 40px;
-    align-items: stretch;
-    height: 300px;
-    
 }
 .caja3 {
     margin: 40px;
