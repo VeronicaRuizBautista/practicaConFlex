@@ -1,3 +1,8 @@
 :root {
-    
+    --fuente:Arial;
+    --salmon: rgb(236, 137, 126);
+    --celeste: rgb(53, 183, 161);
+    --blanco: white;
+    --gris:gray;
+    --gris-claro:rgb(189, 189, 189);
 }

@@ -1,8 +1,60 @@
 @import url(variables.css);
 .body {
+    font-family: var(--fuente);
     display: flex;
+    flex-direction: column;
     margin: auto;
     inset: 0;
-    border: 1px solid black;
     width: 1000px;
+    box-sizing: border-box;
+}
+header {
+    color: var(--blanco);
+}
+.titulo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--salmon);
+}
+.menu {
+    background-color: var(--celeste);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 6px;
+}
+main {
+    display: flex;
+    height: 1300px;
+}
+aside {
+    padding: 5px;
+    width: 30%;
+}
+section {
+    padding: 5px;
+    width: 70%;
+    box-sizing: border-box;
+}
+.linea {
+    margin: 10px;
+    border: 1px solid var(--gris);
+}
+footer {
+    height: 80px;
+    font-size: x-large;
+    background-color: var(--gris-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
