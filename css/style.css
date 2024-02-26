@@ -25,6 +25,9 @@ header {
     align-items: center;
     height: 50px;
 }
+img {
+    object-fit:scale-down;
+}
 ul {
     display: flex;
     list-style-type: none;
@@ -35,13 +38,17 @@ li {
 }
 main {
     display: flex;
-    height: 1300px;
+    height: 1000px;
 }
 aside {
+    display: flex;
     padding: 5px;
     width: 30%;
+    flex-direction: column;
 }
 section {
+    display: flex;
+    flex-direction: column;
     padding: 5px;
     width: 70%;
     box-sizing: border-box;
